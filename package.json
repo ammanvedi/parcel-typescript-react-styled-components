@@ -1,0 +1,27 @@
+{
+  "name": "2020-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-watch": "tsc --watch --noEmit",
+    "dev": "tsc --noEmit && parcel src/index.html",
+    "postinstall": "rm -r node_modules/@types/react-native"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^5.0.1"
+  },
+  "dependencies": {
+    "csstype": "^2.6.9",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.0.1"
+  }
+}
